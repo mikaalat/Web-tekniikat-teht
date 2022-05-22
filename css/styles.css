@@ -73,6 +73,38 @@ section p {
 
 }
 
+#content {
+    width: 400px;
+    background: #fff;
+    padding: 20px;
+    padding-top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: #444;
+    margin: 0 auto;
+    max-height: 270px;
+    overflow: hidden;
+  
+}
+
+#content.open {
+    max-height: 1000px;
+ }
+
+#show-more {
+    background: #1594e5;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    width: 140px;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
     
 
 
