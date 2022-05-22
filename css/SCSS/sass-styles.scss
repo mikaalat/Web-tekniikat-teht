@@ -1,10 +1,26 @@
+$highlight-colour: rgb(18, 222, 11);
+$background-color: rgb(222, 221, 235);
+$font-stack: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+@mixin theme($theme: rgb(0, 255, 0)) {
+    border-color: $theme;
+    h1 {
+        color: $theme;
+    }
+    ul li::before {
+     color: $theme;
+    }
+}
+
 body {
+      
     display: block;
     overflow: hidden;
-    background-color: rgb(18, 225, 46);
+    background-color: rgb(18, 39, 225);
 }
 
 nav {
+    @include theme;
     background-color: rgb(232, 218, 178);
 }
 
@@ -36,6 +52,7 @@ section {
 }
 
 section h1 {
+    @include theme;
     text-transform: uppercase;
     font-weight: 700;
     color: rgb(12, 2, 20);
@@ -74,6 +91,7 @@ section p {
 }
 
 #content {
+    @include theme;
     width: 400px;
     background: #fff;
     padding: 20px;

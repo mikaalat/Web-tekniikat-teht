@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-    background-color: rgb(209, 163, 26);
+    background-color: rgb(232, 191, 67);
 }
 
 .navbar-brand img {
@@ -20,7 +20,7 @@ nav {
 }
 
 nav ul li a{
-    color: rgb(220, 221, 237);
+    color: rgb(15, 234, 48);
     font-size: 22px;
     margin: auto 10px;
 } 
